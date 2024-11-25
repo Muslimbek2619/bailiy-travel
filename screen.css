@@ -1,0 +1,68 @@
+@media screen and (max-width: 1000px) {
+    .closed {
+        display: initial;
+    }
+}
+
+@media screen and (max-width: 560px){
+    nav a{
+        padding: 3px 13px;
+    }
+    nav h1{
+        margin-left: 0;
+        padding: 0;
+        font-size: 30px;
+        justify-content: center;
+    }
+    nav a{
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px){
+    
+    
+}
+
+@media screen and (max-width:360px){
+    nav h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+    nav .right-i{
+        margin-right: 45px;
+        display: initial;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 968px){
+    .container-1{
+        display: block;
+        padding: 20px;
+        height: 100%;
+    }
+
+
+
+    .container-1 .box-1,
+    .container-1 .box-2,
+    .container-1 .box-3{
+        width: 70%; 
+        height: 250px; 
+        margin-top: 5rem;
+    }
+    .container-1 .box-2,
+    .container-1 .box-3 {
+        width: 75%;
+        margin-top: 1rem;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        max-width: 100%;
+    } 
+}
